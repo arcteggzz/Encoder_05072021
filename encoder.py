@@ -8,6 +8,7 @@ def main():
 
 def string_checker():
     while True:
+        user_word = input("Type your word: ")      
         if is_valid_word(user_word):
             return user_word #function ends automatically once we hit return
         print ("Strings are not allowed")
